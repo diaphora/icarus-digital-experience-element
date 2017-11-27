@@ -1,0 +1,31 @@
+body {
+  font-family: "Times New Roman", sans-serif;
+  margin-top:0px;
+  background-color: black;
+  color: white;
+}
+
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: blue;
+}
+
+h2 {
+  color: yellow;
+}
+
+#contact {
+  background-color: white;
+  color: black;
+  padding: 2%;
+  link: black
+}
+
+#contact a:link { color: black; }
+
+
+.column-left{ float: left; width: 31%; margin-left: 10px; margin-right: 25px; }
+.column-center{ display: inline-block; width: 31%; }
+.column-right{ float: right; width: 31%; margin-left: 25px; margin-right: 10px; }
