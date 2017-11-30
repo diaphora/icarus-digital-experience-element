@@ -14,10 +14,32 @@
 <title>Icarus by Aron Woldeslassie</title>
 
 <script>
-  <script src="icarus.js" script type="text/javascript">
+  <script src="icarus.js" script type="text/javascript" defer>
 
     //The purpose of this JavaScript code is to produce interactive text balloons that do not deter from the site's function or its ability to serve the needs of the user.
 
+    function mouseoverNo() {
+      var popup = document.getElementById("BinaryPopup1");
+        popup.classList.toggle("show");
+}
+
+    function mouseoverYes() {
+      var popup = document.getElementById("BinaryPopup2");
+        popup.classList.toggle("show");
+}
+
+object.onmouseover = function mouseoverYes() {
+        var popup = document.getElementById("BinaryPopup2");
+        popup.classList.toggle("show")};
+}
+
+object.onmouseover = function mouseoverNo() {
+        var popup = document.getElementById("BinaryPopup1");          popup.classList.toggle("show")};
+}
+
+  function Opentip() {
+        style: "light", target: true, showOn:"mouseover", borderWidth: 0, stemLength: 18, stemBase: 20, borderRadius:18, delay:0.4};
+}
 
 </script>
 
@@ -25,7 +47,7 @@
 
 <body>
 
-<div id="contact">
+<div id="div2">
 <h1><center><img src="http://78.media.tumblr.com/2ee213d66cf0e84b769305073b7d58a2/tumblr_oxb7zcm27w1thvfbyo1_1280.png" style="width: 25%; height: 25%">
 </strong></center></h1>
 </div>
@@ -42,22 +64,77 @@
     <center><h2>This Is Where Adventure Begins....</h2></center>
       <p>Icarus Holmes is a starving artist who can’t pay his rent. Negotiating with his landlord sends him on an unexpected journey, and the reader’s choices guide Icarus to find out the truth of his existence—and maybe even the truth of existence itself.</p>
   </div>
+  <script type="text/javascript">
+  new Opentip("#light1", "A book isn't the WORST thing you could buy online.", {style: "light", target: true, showOn:"mouseover",borderWidth: 0, stemLength: 18, stemBase: 20, borderRadius:18, delay:0.4, tipJoint: "bottom left",});</script>
   <div class="column-center">
     <center><h2>About the Author</h2></center>
       <p>Aron Woldeselassie’s works have appeared in Twin Cities theaters since 2010. <i>His previous works include Sarah Goldberg Has an Intercom in Her Shower, Reefer Madness 2: The Malady of Mushrooms,</i> and <i>Hunting Middle Class.</i> Today, Aron serves as the head writer for <a href="http://www.mntonight.com/">Minnesota Tonight</a>, a news-comedy show broadcast over YouTube, and which performs monthly at the <a href="http://www.bravenewworkshop.com/">Brave New Workshop</a> in Minneapolis, MN. <i>Icarus</i> is Aron’s first novel. </p>
   </div>
+  <script type="text/javascript">
+  new Opentip("#light1", "What are you supposed to do with two dollars anyway?", {style: "light", target: true, showOn:"mouseover",borderWidth: 0, stemLength: 18, stemBase: 20, borderRadius:18, delay:0.4, tipJoint: "bottom center",});</script>
   <div class="column-right">
     <center><h2>Testimonials</h2></center>
       <p>“A young cast of seven performed <i>Hunting Middle Class,</i> an eerie comedy … when the performers awake from their staged deaths and reveal their real names and their reasons for performing in this production … to critique today’s political economy.” — Jasmine Mahmoud</p>
 
       <p>“Aron Woldeslassie … puts an interesting spin on an odd premise.” — Rachel Reiva</p></div>
+        <script type="text/javascript">
+          new Opentip("#dark1", "You shouldn't expect applause just yet.", {style: "dark", target: true, showOn:"mouseover",borderWidth: 0, stemLength: 18, stemBase: 20, borderRadius:18, delay:0.4, tipJoint: "upper right",});</script>
 </div>
 
 &nbsp;
 <center><strong><h2>Read it now <a href="https://steemit.com/fiction/@aron.wolde/icarus-part-1">here</a>!</strong></h2></center>
 &nbsp;
+<center><strong><h2>Want to Put Your Money on It?</h2></strong></center>
 
-<div><div id="contact">
+<div><div class="container">
+    <div class="column-left">
+      <element onmouseover="mouseoverNo()">
+        <div class="popup" onclick="mouseoverNo()">
+          <span>
+<p><strong><center><a href="https://duckduckgo.com/">No Thanks, I'd Rather Not.</a></center></strong></p>
+      <script><script type="text/javascript">
+      function mouseoverNo() {
+        var popup = document.getElementById("BinaryPopup1");
+        popup.classList.toggle("show") popup.text:"You know who else read books? John Brown. Just sayin'."};
+      }
+      </script>
+      <script><script type="text/javascript">
+        function mouseoverNo() {
+          var popup = document.getElementById("BinaryPopup1");
+            popup.classList.toggle("show"); popup.text:"You know who else read books? John Brown. Just sayin'."};
+    }
+      </script>
+
+    <div class="column-right">
+      <element onmouseover="mouseoverYes()">
+      <div class="popup" onclick="mouseoverYes()">
+        <span>
+        <p><strong><center><a href="http://www.magcloud.com/browse/issue/xxxxxxx">Sure, Let's Give It a Shot!</a></center></strong></p>
+        <script><script type="text/javascript">
+        function mouseoverYes() {
+          var popup = document.getElementById("BinaryPopup2");
+          popup.classList.toggle("show") popup.text:"Well, thanks for being you!"};
+        }
+          </script>
+    <script><script type="text/javascript">
+    function mouseoverYes() {
+      var popup = document.getElementById("BinaryPopup2");
+        popup.classList.toggle("show") popup.text:"Well, thanks for being you!"};
+        <div class="column-right" div class="popup" onclick="mouseoverYes()">
+  }
+      </script>
+
+  </div>
+
+&nbsp;
+<div></div>
+&nbsp;
+<div><span></span></div>
+&nbsp;
+<div><span><p> </p></span></div>
+&nbsp;
+
+<div><div id="div2">
   <div class="container">
     <div class="column-left">
       <center><img src="https://steemit-production-imageproxy-thumbnail.s3.amazonaws.com/U5drh6jznSjxDeTcbd3WQHfSu4YvXtM_1680x8400" alt="Diaphora" style="width: 50%; height: 50%">
